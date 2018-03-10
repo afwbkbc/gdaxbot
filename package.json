@@ -1,0 +1,17 @@
+{
+	"name": "gdaxbot",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "node main.js"
+	},
+	"dependencies": {
+		"express": "*",
+		"express-ws": "*",
+		"twig": "*",
+		"chdir": "*",
+		"gdax": "*"
+	}
+}

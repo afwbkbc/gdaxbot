@@ -1,0 +1,11 @@
+exports.config = {
+	
+	port: 1337,
+	
+	api_key: '',
+	api_secret: '',
+	api_passphrase: '',
+	
+	production: false,
+		
+};

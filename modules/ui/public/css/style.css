@@ -1,0 +1,19 @@
+div.products {
+	text-align: center;
+}
+
+div.products > span {
+	display: inline-block;
+	border: 1px solid silver;
+	padding: 2px 4px;
+	margin: 0 12px;
+	cursor: pointer;
+}
+
+div.products > span:hover {
+	background: #eee;
+}
+
+div.products > span.active {
+	font-weight: bold;
+}
