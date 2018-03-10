@@ -20,7 +20,11 @@ exports.module = {
 			ws.on( 'message', ( msg ) => {
 				var req = JSON.parse( msg );
 				data.modules.protocol.execute( req.cmd, req.data, ( res ) => {
-					ws.send( JSON.stringify( res ) );
+					try {
+						ws.send( JSON.stringify( res ) );
+					} catch ( e ) {
+						
+					}
 				});
 			});
 		});

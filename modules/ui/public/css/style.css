@@ -17,3 +17,13 @@ div.products > span:hover {
 div.products > span.active {
 	font-weight: bold;
 }
+
+
+
+
+
+div.product > .chart {
+	background: black;
+	margin: 20px auto;
+	display: block;
+}
